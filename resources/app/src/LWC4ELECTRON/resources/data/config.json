@@ -1,0 +1,42 @@
+{
+	"pages": {
+		"trailhead": "https://trailhead.salesforce.com/en/home",
+		"servers": {
+			"localhost_": "http://localhost:5000",
+			"staging": "https://et-epl-stage.herokuapp.com",
+			"production": "https://et-epl.herokuapp.com"
+		},
+		"pingServer": "https://et-epl.herokuapp.com"
+	},
+	"timer": {
+		"master": {
+			"pattern": [0, 1, 0]
+		},
+		"callout": {
+			"pattern": [2, 0, 0]
+		},
+		"reset": {
+			"pattern": [10, 0, 0]
+		},
+		"autoClick": {
+			"pattern": [0, 5, 0]
+		}
+	},
+	"debug": {
+		"modes": ["fatal", "error", "warn", "info", "debug", "trace", "stack", "data"],
+		"mode": "fatal",
+		"fullMenus": false,
+		"peekInterval": 10,
+		"preventQuit": true,
+		"openDevTools": false,
+		"showCallouts": false,
+		"updateStatus": {
+			"icon": false,
+			"title": false
+		},
+		"removeOldLogs": true,
+		"useFakeIPAddress": false,
+		"interruptWithDialog": false
+	},
+	"version": "2019-10-30V01"
+}
